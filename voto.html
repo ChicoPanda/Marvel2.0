@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        
+        <script src="js/jquery-ui.min.js" type="text/javascript"></script>
+           <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <link href="css/css.css" rel="stylesheet" type="text/css"/>
+        <script src="js/ajax.googleapis.com_ajax_libs_jquery_3.3.1_jquery.min.js" type="text/javascript"></script>
+        <script src="js/jsVoto.js" type="text/javascript"></script>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+     
+        <div id="results">
+            
+        </div>
+        
+        <div id="votacion">
+            <h2>Gane dos copias</h2>
+            <label >Nombre:</label>
+            <input  title="Campo de texto para ingresar su nombre" type=text id="nombre" placeholder="Ingrese su nombre">
+            <br>
+            <label>Apellidos:</label>
+            <input title="Campo de texto para ingresar sus apellidos" type=text id="apellidos" placeholder="Ingrese sus apellidos">
+            <br>
+            <label>Email:</label>
+            <input title="campo de texto para ingresar su email" type=text id="email" placeholder="Ingrese su email">
+            <br>
+            <label>Puntos:</label>
+            <input title="campo de texto para ingresar su valoracion de la pelicula" type=number id="voto" max=10 min=1 placeholder="Ingrese su valoracion">
+            <br>
+            <label>Telefono:</label>
+            <input title="campo de texto para ingresar su telefono" type=tel id="telefono" placeholder="ingrese su numero de telefono">
+            <br>
+            <label>Localidad:</label>
+            <input title="campo de texto para ingresar su localidad" type=text id="localidad" placeholder="Ingrese su localidad">
+            <br>
+            <input title="Boton para aceptar la votacion" type="button" id="votar" value="VOTA">
+        </div>
+
+       
+        <div id="gra">
+            <input type="button" id="tarta" value="Grafico">
+        </div>
+
+        <div tabindex="0" id="graficos1">
+
+
+        </div>
+    </body>
+</html>
